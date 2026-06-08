@@ -26,7 +26,7 @@ jobs:
         run: chmod -R 755 node_modules
 
       - name: Install Playwright Browsers
-        run: npx playwright@latest install --with-deps
+        run: npx playwright install --with-deps
 
       - name: Create .env file
         run: |

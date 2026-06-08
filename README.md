@@ -1,4 +1,4 @@
-# Playwright Automation Task (API + UI)
+# Playwright Automation API + UI Test
 
 ## Overview
 
@@ -23,25 +23,25 @@ This project demonstrates:
 
 ```text
 project-root/
-├── .env                  # Environment configuration file (git-ignored)
-├── .env.example/         # Setup directory containing default settings
+├── .env                     # Environment configuration file (git-ignored)
+├── .env.example/            # Setup directory containing default settings
 │   └── env_setup.txt
 ├── tests/
 │   ├── api/
-│   │   └── api.spec.js   # API automation test spec
+│   │   └── api.spec.js      # API automation test spec
 │   └── ui/
 │       └── frontend.spec.js # UI automation test spec
-├── pages/                # Page Object Model classes
+├── pages/                   # Page Object Model classes
 │   ├── loginpage.js
 │   ├── inventorypage.js
 │   ├── cartpage.js
 │   ├── checkoutpage.js
 │   └── checkoutcompletepage.js
-├── utils/                # Helper files and validators
+├── utils/                   # Helper files and validators
 │   ├── apihelper.js
 │   ├── data.json
 │   └── schemavalidator.js
-├── playwright.config.js  # Playwright configuration
+├── playwright.config.js.    # Playwright configuration
 ├── package-lock.json
 └── package.json          
 ```

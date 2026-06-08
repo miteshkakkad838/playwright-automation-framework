@@ -10,7 +10,7 @@ import { CheckoutPage } from '../../pages/checkoutpage.js';
 import { CheckoutCompletePage } from '../../pages/checkoutcompletepage.js';
 
 
-test('Full flow test', async ({ page }) => {
+test('UI flow test', async ({ page }) => {
 
     const loginPage = new LoginPage(page);
     const inventoryPage = new InventoryPage(page);

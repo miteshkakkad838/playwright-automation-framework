@@ -10,7 +10,7 @@ export class CheckoutPage {
         this.finishBtn = '#finish';
     }
 
-    async fillDetails(firstName, lastName, postalCode) {
+    async fillDetails() {
         await this.page.fill(this.firstName, checkoutDetails.firstName);
         await this.page.fill(this.lastName, checkoutDetails.lastName);
         await this.page.fill(this.postalCode, checkoutDetails.postalCode);

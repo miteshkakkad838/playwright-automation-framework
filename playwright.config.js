@@ -49,6 +49,9 @@ export default defineConfig({
     trace: 'on',
     screenshot: 'on',
     video: 'on',
+    launchOptions: {
+      slowMo: 500,
+    },
   },
 
   /* ---------------------------- PROJECTS ---------------------------------- */

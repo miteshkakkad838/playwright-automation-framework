@@ -1,0 +1,9 @@
+playwright-report/
+test-results/
+node_modules/
+coverage/
+allure-results/
+allure-report/
+gitignore/
+.env
+.DS_Store

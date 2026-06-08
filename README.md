@@ -39,11 +39,11 @@ project-root/
 │   └── checkoutcompletepage.js
 ├── utils/                # Helper files and validators
 │   ├── apihelper.js
-│   ├── data.js
+│   ├── data.json
 │   └── schemavalidator.js
 ├── playwright.config.js  # Playwright configuration
 ├── package-lock.json
-└── package.json          # Node dependencies and scripts
+└── package.json          
 ```
 
 ---

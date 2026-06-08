@@ -1,3 +1,5 @@
+import checkoutDetails from '../utils/data.json';
+
 export class CheckoutPage {
     constructor(page) {
         this.page = page;
@@ -8,10 +10,10 @@ export class CheckoutPage {
         this.finishBtn = '#finish';
     }
 
-    async fillDetails() {
-        await this.page.fill(this.firstName, 'Mitesh');
-        await this.page.fill(this.lastName, 'Kakkad');
-        await this.page.fill(this.postalCode, '360001');
+    async fillDetails(firstName, lastName, postalCode) {
+        await this.page.fill(this.firstName, checkoutDetails.firstName);
+        await this.page.fill(this.lastName, checkoutDetails.lastName);
+        await this.page.fill(this.postalCode, checkoutDetails.postalCode);
         await this.page.click(this.continueBtn);
     }
 
